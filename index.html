@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bdcontainer">
+                <a href="#" class="nav__logo">Misael Sebastián Soto Martínez</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>Principal
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user-circle nav__icon' ></i>Perfil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book-alt nav__icon' ></i>Educación
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Habilidades
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase nav__icon' ></i>Experiencia
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-medal' ></i>Certificados y Cursos
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external' ></i>Referencias
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title"> Misael Sebastián <b> Soto Martínez</b></h1>
+                                <h3 class="home__profession"> Fotógrafo </h3>
+
+
+                            <!-- Button to generate and download the pdf. Available for mobile. -->
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Descargar</a>
+                                </div>
+                            </div>
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map"></i> Mérida, Yucatán, México
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope'></i> sebastian.soto.mtz@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone' ></i> (999)-506-5842
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/misaelsoto/" target="__blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i>Misael Sebastián Soto Martínez
+                            </a>
+                            <a href="https://soundcloud.com/pollyannapayton" target="__blank" class="social__link">
+                                <i class="bx bxl-soundcloud social__icon"></i>Pollyanna Payton
+                            </a>
+                            <a href="https://www.instagram.com/pollyanna.payton/" target="__blank" class="social__link">
+                                <i class="bx bxl-instagram social__icon"></i>Pollyanna Payton
+                            </a>
+                            <a href="https://www.behance.net/misaelsotoma" target="__blank" class="social__link">
+                                <i class="bx bxl-adobe"></i>Misael Sebastián Soto Martínez
+                            </a>
+                        </div>
+                        
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Perfil</h2>
+
+                        <p class="profile__description">Fotógrafo, videografo, diseñador sonoro. Siempre he tratado con todo tipo de personalidades para poder llegar a una meta. Me gustan los retos cuando se tratan del arte y su importancia en el mundo.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Educación</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Licenciatura en Realización Digital</h3>
+                                    <span class="education__studies">CAAV: Universidad de Medios Audiovisuales</span>
+                                    <span class="education__year">2019 - 2021</span> 
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Ingeniería en Robótica Computacional</h3>
+                                    <span class="education__studies">Universidad Politécnica de Yucatán</span>
+                                    <span class="education__year">2017 - 2019</span> 
+                                </div>
+                            </div>
+
+                            <!-- <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span> -->
+                                    <!-- <span class="education__line"></span> -->
+                                <!-- </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Carrera técnica en Programación</h3>
+                                    <span class="education__studies">CBTis No. 120</span>
+                                    <span class="education__year">2015 - 2017</span> 
+                                </div>
+                            </div> -->
+
+                        </div>
+
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Manejo de Paquetería Adobe
+                                </li>
+                                <!-- <li class="skills__name">
+                                    <span class="skills__circle"></span>Illustrator
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>After Effects
+                                </li> -->
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                <!-- <li class="skills__name">
+                                    <span class="skills__circle"></span>Lightroom
+                                </li> -->
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Pro Tools
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>FL Studio
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experiencia</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Fotógrafo de Cabezera</h3>
+                                    <span class="experience__company">2019-2021 | Asesoría Hipotecaria e Inmobiliaria</span>
+                                    <p class="experience__description">Fotografía y video de interiores y arquitectura, creación de contenido para redes sociales.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Director cortometraje académico "Michelle"</h3>
+                                    <span class="experience__company">2019 | CAAV: Universidad de Medios Audiovisuales</span>
+                                    <p class="experience__description">Después de su última cita, un asesino disfruta de una mórbida cena en la comodidad de su hogar.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Diseñador sonoro en cortometraje académico "En Espera"</h3>
+                                    <span class="experience__company">2019 | CAAV: Universidad de Medios Audiovisuales</span>
+                                    <p class="experience__description">Un padre se despierta todos los días esperando un último reencuentro con su hija.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificados y cursos</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Curso en Big Data</h3>
+                                <p class="certificate__description">Impartida por profesores del Tecnológico de Monterrey en la Universidad Politécnica de Yucatán</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Curso en Vivo de After Effects y Photoshop</h3>
+                                <p class="certificate__description">Unique Digital Portraits with Photoshop and After Effects impartido por Klarens Malluta por Domestika YT</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Curso académico en Diseño Sonoro</h3>
+                                <p class="certificate__description">Impartido por Walter Davis en el CAAV: Universidad de Medios Audiovisuales</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section__title">Referencias</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="reference__subtitle">Director Ejecutivo</span>
+                                <h3 class="references__title">Ramón González</h3>
+                                <ul class="references__contact">
+                                    <li>Número: 999-999-9999</li>
+                                    <li>Email: ahicontacto@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="reference__subtitle">Directora Ejecutiva</span>
+                                <h3 class="references__title">Erika Chávez</h3>
+                                <ul class="references__contact">
+                                    <li>Número: 999-999-9999</li>
+                                    <li>Email: ahiasesora@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <!-- <div class="references__content bd-grid">
+                                <span class="reference__subtitle">Directores Ejecutivos</span>
+                                <h3 class="references__title">Ramón Gonzalez, Erika Chávez</h3>
+                                <ul class="references__contact">
+                                    <li>Número: 999-999-9999</li>
+                                    <li>Email: ahicontacto@gmail.com</li>
+                                </ul>
+                            </div> -->
+                            
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Lenguajes</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Español
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Inglés
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Intereses</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon' ></i>
+                                <span class="interests__name">Música</span>
+                            </div>
+
+                            <!-- <div class="interests__content">
+                                <i class='bx bx-desktop interests__icon' ></i>
+                                <span class="interests__name">Programación y Post.</span>
+                            </div> -->
+
+                            <div class="interests__content">
+                                <i class='bx bxs-component interests__icon' ></i>
+                                <span class="interests__name">Programación</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-pencil interests__icon' ></i>
+                                <span class="interests__name">Dibujo y pintura</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-slideshow interests__icon' ></i>
+                                <span class="interests__name">Postproducción</span>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow scrolltop__icon' ></i>
+        </a>
+        
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
